@@ -11,5 +11,5 @@ class StartingLayer(cocos.layer.Layer):
         self.add(self.bg_layer)
         self.add(self.menu)
         
-cocos.director.director.init()
+cocos.director.director.init(height=1200, width=1200, resizable=True)
 cocos.director.director.run(cocos.scene.Scene(StartingLayer()))

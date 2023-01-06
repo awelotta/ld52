@@ -4,7 +4,6 @@ import pyglet
 import play
 
 # MenuLayer and BGLayer
-# then go into a settings scene
 # and a play scene
 
 class MenuLayer(cocos.menu.Menu):
@@ -27,5 +26,6 @@ class BGLayer(cocos.layer.Layer):
     def __init__(self):
         super(BGLayer, self).__init__()
 
-        self.bg_sprite = cocos.sprite.Sprite('resources/w_pink.jpg', scale=0.15, anchor=(0.0, 0.0))
+        self.bg_sprite = cocos.sprite.Sprite('resources/w_pink.jpg', position=(600, 600))
+        self.bg_sprite.scale = 1200 / max(self.bg_sprite.width, self.bg_sprite.height) # chooses the one that DOESN'T fill the whole window
         self.add(self.bg_sprite)
