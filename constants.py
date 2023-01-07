@@ -1,0 +1,1 @@
+W_LEN = 1200 # window length
