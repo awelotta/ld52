@@ -1,5 +1,7 @@
 import cocos
 import pyglet
+import sys
+import os
 
 from constants import W_LEN
 import play
@@ -17,7 +19,8 @@ class MenuLayer(cocos.menu.Menu):
         cocos.director.director.push(cocos.scene.Scene(play.PlayLayer()))
 
     def on_quit(self):
-        raise SystemExit # exits
+        # raise SystemExit ??? not work on awelotta's device
+        os._exit(0) # exits
 
 class StartingLayer(cocos.layer.Layer):
     def __init__(self):
