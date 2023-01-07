@@ -27,6 +27,8 @@ class PlayLayer(cocos.layer.Layer):
         self.add(self.season_indicator)
 
         # toolbar
+        self.toolbar = cocos.sprite.Sprite('resources/toolbar.png', position = (W_LEN*0.5, W_LEN*0.05))
+        self.add(self.toolbar)
 
         # money
         self.money = 1000
