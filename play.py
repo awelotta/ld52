@@ -46,8 +46,9 @@ class PlayLayer(cocos.layer.Layer):
         self.cooking_button = cocos.sprite.Sprite('resources/cooking_button.png', position=(W_LEN*0.9, W_LEN*0.05))
         self.add(self.cooking_button)
 
-    def on_mouse_press(self, x, y, button, modifiers):
+    def on_mouse_press(self, phys_x, phys_y, button, modifiers):
         # NOTE: button==1 if left-click
+        x, y = cocos.director.director.get_virtual_coordinates(phys_x, phys_y)
 
         if not self.is_cooking_menu_open:
             # farm
@@ -83,7 +84,9 @@ class CookingLayer(cocos.layer.Layer):
 
         print()
 
-    def on_mouse_press(self, x, y, button, modifiers):
+    def on_mouse_press(self, phys_x, phys_y, button, modifiers):
+        x, y = cocos.director.director.get_virtual_coordinates(phys_x, phys_y)
+
         if not self.cooking_button.contains(x, y) and not self.inventory.contains(x, y) and button==1:
             self.parent.is_cooking_menu_open = False
             self.kill()
