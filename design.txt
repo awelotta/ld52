@@ -1,7 +1,7 @@
 COMPANION PLANT
 
 
-choose 3 (??) plants per 9 (??) plant planters
+choose 3 (??) plants per 4 (??) plant planters each ultimately capable of growing 5-9 plants
 
 watch the interaction between plants and planters, and pests and other peripheral entities (??)
 
@@ -9,31 +9,46 @@ hit space to harvest all
 
 all harvested plants are unlocked and allow the player to plant new fun plants should they replay the game
 
-
+=
 
 plants:
 beans (increases soil Nitrogen)
 sunflower
 pitcher plant (collects water, feeds MICE)
-flower? (attracts BEES)
-cheese plant (attracts MICE (see: MICE))
+petunia (attracts RATHER ANGRY BEES)
+cheese plant (attracts NICE MICE)
 tomato (attracts DIRTY THIEVING NEIGHBORS)
 bamboo (acts as a trellis for tomato plants)
-bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events)
+bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events. reduces sunlight when fully grown)
 garlic (repels insects and vampires)
+grass
+tall grass
+Genetically Modified Venus Fly Trap (eats neighbors)
+
 
 non-starter plants:
-Genetically Modified Venus Fly Trap (eats neighbors)
-Heir Variety Type of each plant 
+Heirloom Variety Type of each plant. (Has a special color scheme.)
+dead variety of each plant
+*as well as any number of selected plants
 
 critters:
-HUNGRY MICE are attracted to cheese plants. They will search plots of nearby cheese plants first before moving on to the next one where they will sometime drop seeds. Interaction between NEIGHBORS and the a HUNGRY MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
+
+
+NICE MICE are attracted to cheese plants. They will search plots of nearby cheese plants first before moving on to the next one where they will increase nitrogen levels, sometime drop seeds (15%) and continue until they eat enough. If a whole group of NICE MICE eat enough they will live in the garden, making a routine NICE MICE interaction as well as random NICE MICE encounters. Interaction between NEIGHBORS and the NICE MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
 
 DIRTY THIEVING NEIGHBORS will go from planter to planter, checking each tomato plant's tomatoes for ripeness (3 tomatoes at a time), stealing each ripe tomato, and moving on to the next planter. Will only happen if you plant on the left or right sides where the neighbors can see your tomato plants and they will not steal more than 8 in one day.
 
-RATHER ANGRY BEES will go from planter to planter, and repel NEIGHBORS who touch their home planter
+RATHER ANGRY BEES will go from planter to planter, and repel from the garden NEIGHBORS who touch their home planter
 
-BADGERS 
+SQUIRRELY CREATURES found in trees. Eats nuts and seeds, buries them sometimes.
+
+RABBITY CREATURES found in tall grass. Turns tall grass into short grass. Turns short grass into stubs
+
+FISHY CREATURE found in trees 
+
+BIDOOF found in tall grass
+
+SHINY BIDOOF same as bidoof but is shown in a different color.
 
 GROSS FLIES are attracted to full GMO Venus Fly Traps and repel NEIGHBORS
 
@@ -42,12 +57,16 @@ VAMPIRES are attracted to DIRTY THIEVING NEIGHBORS and drop Heirloom Variety pla
 
 
 
-nutrients:
+externalities:
 sunlight
 nitrogen, allows the soil to remain fertile to allow for the accumulation and growth of up to the maximum of 9 plants per planter. (otherwise it maxes out at 5)
 water, required 
 decay, may cause rot
 composting rate
+
+
+
+
 
 
 seasons.
