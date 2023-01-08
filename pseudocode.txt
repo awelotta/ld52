@@ -4,21 +4,23 @@ WRITE: HIT SPACE TO PLAY
 WRITE: [PLANTS COLLECTED]
 WRITE: "LAST HARVEST YOU COLLECTED [LAST HARVEST'S HARVEST] with which you were able to make [FOOD TYPE]"
 
-
 :part b:
 
 CHOOSE PLANTS
     show 4 planters
     arrow keys to select a planter
-    
-
-
-
-
-
+    select plants to go into planter
+        depends on the plants you have found
+    after setting all this, you watch it grow
 
 :part c:
     watch it grow...
 
-FOR i IN range(xyz)
-    
+    a day + season indicator
+    things happening to the plants and planters
+
+    in the background:
+        a bunch chances, influenced by the plants and whatnot
+            eg, rabbity credrs have a 20% chance of spawning in tall grass every day
+                maybe internally, each day is composed of a bunch of "ticks" (like hours), so that way it isn't that everything happens all at once when the day starts
+        

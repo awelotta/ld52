@@ -11,10 +11,14 @@ def main(stdscr):
     RED_AND_WHITE = curses.color_pair(3)
     #    stdscr.nodelay(True)
 
+    plants_harvested = []
+    foods_made = []
     
     stdscr.clear()
     stdscr.addstr(2, 15, "HIT SPACE TO PLAY")
+    # TODO: if plants_harvested.empty: something; else: something else
     stdscr.addstr(4, 15, "YOU'VE COLLECTED [THESE PLANTS]", curses.A_BOLD)
+    # TODO: if foods_made.empty: something; else: something else
     stdscr.addstr(6, 15, "YOU'VE MADE [foods]", curses.A_BOLD)
 
     while True:
@@ -47,8 +51,6 @@ def main(stdscr):
     plot3_win = curses.newwin(3, 3, 8, 2)
     plot4_win = curses.newwin(3, 3, 8, 9)
     instruction_win = curses.newwin(20, 3, 50, 5)
-    
-
 
 wrapper(main)
 

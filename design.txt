@@ -1,74 +1,79 @@
-COMPANION PLANT
+===COMPANION PLANT===
 
 
 choose 3 (??) plants per 4 (??) plant planters each ultimately capable of growing 5-9 plants
 
 watch the interaction between plants and planters, and pests and other peripheral entities (??)
+    interactions between planters?
 
 hit space to harvest all
+    does this end the game?
 
 all harvested plants are unlocked and allow the player to plant new fun plants should they replay the game
 
-=
 
-plants: (progressively gain access over 2 games, based on the indentation:)
+---
+
+
+# plants:
+
+## starter:
 grass
 tall grass
 beans (increases soil Nitrogen)
 sunflower (increases sunlight)
+
+## find through chance
 pitcher plant (collects water, feeds MICE)
 cheese plant (attracts NICE MICE)
-    petunia (attracts RATHER ANGRY BEES)
-    garlic (repels insects and vampires)
-    tomato (attracts DIRTY THIEVING NEIGHBORS)
-    bamboo (acts as a trellis for tomato plants)
-    bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events. reduces sunlight when fully grown)
-    Genetically Modified Venus Fly Trap (eats neighbors, significantly increasing nitrogen)
+petunia (attracts RATHER ANGRY BEES)
+garlic (repels insects and vampires)
+tomato (attracts DIRTY THIEVING NEIGHBORS)
+bamboo (acts as a trellis for tomato plants)
+bananas tree (acts as a trellis for tomato plants; grows in 60 days; allows beehives to be built when enough bees arrive; rustles strangely and randomly causes strange events. reduces sunlight when fully grown)
+Genetically Modified Venus Fly Trap (eats neighbors, significantly increasing nitrogen)
 
-
-non-starter plants:
+## even more special:
 Heirloom Variety Type of each plant. (Has a special color scheme.)
 dead variety of each plant
-*as well as any number of selected plants
-
-critters:
 
 
+# critters:
 NICE MICE are attracted to cheese plants.
     They will search plots of nearby cheese plants first before moving on to the next one where they will increase nitrogen levels, sometime drop seeds (15%) and continue until they eat enough.
     If a whole group of NICE MICE eat enough they will live in the garden, making a routine NICE MICE interaction as well as random NICE MICE encounters.
     Interaction between NEIGHBORS and the NICE MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
-
 RATHER ANGRY BEES will go from planter to planter, and repel from the garden NEIGHBORS who touch their home planter
-
 DIRTY THIEVING NEIGHBORS will go from planter to planter, checking each tomato plant's tomatoes for ripeness (3 tomatoes at a time), stealing each ripe tomato, and moving on to the next planter. Will only happen if you plant on the left or right sides where the neighbors can see your tomato plants and they will not steal more than 8 in one day.
-    when they spawn at night, they are vampires (repeled by garlic)
+VAMPIRES are attracted to DIRTY THIEVING NEIGHBORS and drop Heirloom Variety plant seeds when they encounter one, as well as taking away one NEIGHBOR
+    Come
+    
+--- seems like below are extra; don't have plant specific interactions, so they can be sort of exchaged ---
 
 SQUIRRELY CREATURES found in trees. Eats nuts and seeds, buries them sometimes.
-
 RABBITY CREATURES found in tall grass. Turns tall grass into short grass. Turns short grass into stubs
-
 FISHY CREATURE found in trees
-
 BIDOOF found in tall grass
-
 SHINY BIDOOF same as bidoof but is shown in a different color.
-
 GROSS FLIES are attracted to full GMO Venus Fly Traps and repel NEIGHBORS
 
-VAMPIRES are attracted to DIRTY THIEVING NEIGHBORS and drop Heirloom Variety plant seeds when they encounter one, as well as taking away one NEIGHBOR.
 
-
-
-
-externalities:
+# externalities:
 sunlight
 nitrogen, allows the soil to remain fertile to allow for the accumulation and growth of up to the maximum of 9 plants per planter. (otherwise it maxes out at 5)
 water, required
 
 
-seasons:
-    spring
-    summer
-    fall
-    winter
+# seasons, 365 days a year:
+    spring 80
+        medium sunlight; medium-high chance of rain
+    summer 95
+        high sunlight; high chance of rain
+    autumn 80
+        medium sunlight; medium chance of rain
+    winter 70
+        low sunlight; no rain, high chance of snow
+
+# appearance
+    how do the plants look? how do the planters look? how are they arranged in the planter?
+        is it all abstract? maybe ascii animations can play when events happen, but otherwise it's abstract (like oregon trail, IIRC)
