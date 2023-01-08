@@ -11,19 +11,19 @@ all harvested plants are unlocked and allow the player to plant new fun plants s
 
 =
 
-plants:
-beans (increases soil Nitrogen)
-sunflower
-pitcher plant (collects water, feeds MICE)
-petunia (attracts RATHER ANGRY BEES)
-cheese plant (attracts NICE MICE)
-tomato (attracts DIRTY THIEVING NEIGHBORS)
-bamboo (acts as a trellis for tomato plants)
-bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events. reduces sunlight when fully grown)
-garlic (repels insects and vampires)
+plants: (progressively gain access over 2 games, based on the indentation:)
 grass
 tall grass
-Genetically Modified Venus Fly Trap (eats neighbors)
+beans (increases soil Nitrogen)
+sunflower (increases sunlight)
+pitcher plant (collects water, feeds MICE)
+cheese plant (attracts NICE MICE)
+    petunia (attracts RATHER ANGRY BEES)
+    garlic (repels insects and vampires)
+    tomato (attracts DIRTY THIEVING NEIGHBORS)
+    bamboo (acts as a trellis for tomato plants)
+    bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events. reduces sunlight when fully grown)
+    Genetically Modified Venus Fly Trap (eats neighbors, significantly increasing nitrogen)
 
 
 non-starter plants:
@@ -34,17 +34,21 @@ dead variety of each plant
 critters:
 
 
-NICE MICE are attracted to cheese plants. They will search plots of nearby cheese plants first before moving on to the next one where they will increase nitrogen levels, sometime drop seeds (15%) and continue until they eat enough. If a whole group of NICE MICE eat enough they will live in the garden, making a routine NICE MICE interaction as well as random NICE MICE encounters. Interaction between NEIGHBORS and the NICE MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
-
-DIRTY THIEVING NEIGHBORS will go from planter to planter, checking each tomato plant's tomatoes for ripeness (3 tomatoes at a time), stealing each ripe tomato, and moving on to the next planter. Will only happen if you plant on the left or right sides where the neighbors can see your tomato plants and they will not steal more than 8 in one day.
+NICE MICE are attracted to cheese plants.
+    They will search plots of nearby cheese plants first before moving on to the next one where they will increase nitrogen levels, sometime drop seeds (15%) and continue until they eat enough.
+    If a whole group of NICE MICE eat enough they will live in the garden, making a routine NICE MICE interaction as well as random NICE MICE encounters.
+    Interaction between NEIGHBORS and the NICE MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
 
 RATHER ANGRY BEES will go from planter to planter, and repel from the garden NEIGHBORS who touch their home planter
+
+DIRTY THIEVING NEIGHBORS will go from planter to planter, checking each tomato plant's tomatoes for ripeness (3 tomatoes at a time), stealing each ripe tomato, and moving on to the next planter. Will only happen if you plant on the left or right sides where the neighbors can see your tomato plants and they will not steal more than 8 in one day.
+    when they spawn at night, they are vampires (repeled by garlic)
 
 SQUIRRELY CREATURES found in trees. Eats nuts and seeds, buries them sometimes.
 
 RABBITY CREATURES found in tall grass. Turns tall grass into short grass. Turns short grass into stubs
 
-FISHY CREATURE found in trees 
+FISHY CREATURE found in trees
 
 BIDOOF found in tall grass
 
@@ -60,17 +64,11 @@ VAMPIRES are attracted to DIRTY THIEVING NEIGHBORS and drop Heirloom Variety pla
 externalities:
 sunlight
 nitrogen, allows the soil to remain fertile to allow for the accumulation and growth of up to the maximum of 9 plants per planter. (otherwise it maxes out at 5)
-water, required 
-decay, may cause rot
-composting rate
+water, required
 
 
-
-
-
-
-seasons.
-
-
-
-
+seasons:
+    spring
+    summer
+    fall
+    winter

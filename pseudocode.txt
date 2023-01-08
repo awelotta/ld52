@@ -7,7 +7,10 @@ WRITE: "LAST HARVEST YOU COLLECTED [LAST HARVEST'S HARVEST] with which you were 
 
 :part b:
 
-
+CHOOSE PLANTS
+    show 4 planters
+    arrow keys to select a planter
+    
 
 
 
@@ -15,6 +18,7 @@ WRITE: "LAST HARVEST YOU COLLECTED [LAST HARVEST'S HARVEST] with which you were 
 
 
 :part c:
+    watch it grow...
 
 FOR i IN range(xyz)
     

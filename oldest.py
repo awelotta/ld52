@@ -9,7 +9,7 @@ def main(stdscr):
     BLACK_AND_RED = curses.color_pair(1)
     BLUE_AND_BLACK = curses.color_pair(2)
     RED_AND_WHITE = curses.color_pair(3)
-#    stdscr.nodelay(True)
+    #    stdscr.nodelay(True)
 
     
     stdscr.clear()
@@ -31,15 +31,15 @@ def main(stdscr):
 
 
 
-# ^ main menu and press Space to start (part a)
- 
-# add border color to suggest game state??
-# for instance,
-    # stdscr.attron(RED_AND_WHITE)
-    # stdscr.border()
-    # stdscr.refresh()
-    # ..
-    # stdscr.attroff(RED_AND_WHITE)
+    # ^ main menu and press Space to start (part a)
+    
+    # add border color to suggest game state??
+    # for instance,
+        # stdscr.attron(RED_AND_WHITE)
+        # stdscr.border()
+        # stdscr.refresh()
+        # ..
+        # stdscr.attroff(RED_AND_WHITE)
 
 
     plot1_win = curses.newwin(3, 3, 3, 2)
