@@ -12,29 +12,33 @@ all harvested plants are unlocked and allow the player to plant new fun plants s
 
 
 plants:
-beans (increases soil Nitrogen 
+beans (increases soil Nitrogen)
 sunflower
 pitcher plant (collects water, feeds MICE)
 flower? (attracts BEES)
 cheese plant (attracts MICE (see: MICE))
 tomato (attracts DIRTY THIEVING NEIGHBORS)
 bamboo (acts as a trellis for tomato plants)
-banana tree (acts as a trellis for tomato plants; grows in 10 months)
+bananas tree (acts as a trellis for tomato plants; grows in 2 months; allows bee nests to be built when enough bees arrive; rustles strangely and randomly causes strange events)
+garlic (repels insects and vampires)
 
 non-starter plants:
 Genetically Modified Venus Fly Trap (eats neighbors)
-
+Heir Variety Type of each plant 
 
 critters:
-MICE are attracted to cheese plants. They will search nearby cheese plants first before moving on to the next one where they will sometime drop seeds. Interaction between NEIGHBORS and the MICE will increase chance of dropping seeds to 90%. 
+HUNGRY MICE are attracted to cheese plants. They will search plots of nearby cheese plants first before moving on to the next one where they will sometime drop seeds. Interaction between NEIGHBORS and the a HUNGRY MOUSE will increase chance of dropping seeds to 90% but will also repel the mice.
 
 DIRTY THIEVING NEIGHBORS will go from planter to planter, checking each tomato plant's tomatoes for ripeness (3 tomatoes at a time), stealing each ripe tomato, and moving on to the next planter. Will only happen if you plant on the left or right sides where the neighbors can see your tomato plants and they will not steal more than 8 in one day.
 
-PREDATORY WASPS will go from planter to planter, and repel NEIGHBORS who touch their home planter
+RATHER ANGRY BEES will go from planter to planter, and repel NEIGHBORS who touch their home planter
 
-BADGERS
+BADGERS 
 
-FLIES
+GROSS FLIES are attracted to full GMO Venus Fly Traps and repel NEIGHBORS
+
+VAMPIRES are attracted to DIRTY THIEVING NEIGHBORS and drop Heirloom Variety plant seeds when they encounter one, as well as taking away one NEIGHBOR.
+
 
 
 
@@ -42,7 +46,8 @@ nutrients:
 sunlight
 nitrogen, allows the soil to remain fertile to allow for the accumulation and growth of up to the maximum of 9 plants per planter. (otherwise it maxes out at 5)
 water, required 
-
+decay, may cause rot
+composting rate
 
 
 seasons.

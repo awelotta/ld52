@@ -1,5 +1,20 @@
+:part a:
+
 WRITE: HIT SPACE TO PLAY
 WRITE: [PLANTS COLLECTED]
 WRITE: "LAST HARVEST YOU COLLECTED [LAST HARVEST'S HARVEST] with which you were able to make [FOOD TYPE]"
 
 
+:part b:
+
+
+
+
+
+
+
+
+:part c:
+
+FOR i IN range(xyz)
+    
